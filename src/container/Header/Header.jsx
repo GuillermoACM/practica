@@ -16,6 +16,29 @@ const Header = () => {
 					<h1>Tertiary Color</h1>
 				</div>
 			</div>
+			
+			<div className="app__header-ejercicio">
+				<ul>
+					<li>
+					<span>
+						<img src="http://via.placeholder.com/200x200"/>
+						Placeholder
+					</span>
+					</li>
+					<li>
+					<span>
+						<img src="http://via.placeholder.com/200x200"/>
+						Placeholder
+					</span>
+					</li>
+					<li>
+					<span>
+						<img src="http://via.placeholder.com/200x200"/>
+						Placeholder
+					</span>
+					</li>
+				</ul>
+			</div>
     </div>
   )
 }
