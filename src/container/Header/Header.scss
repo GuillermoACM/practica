@@ -1,0 +1,45 @@
+.app__header {
+	max-width: 1000px;
+	height: 12rem;
+
+	padding: 6rem 1rem 6rem 4rem;
+	margin: 0 auto;
+
+	@media screen and (min-width: 2000px) {
+		padding-top: 8rem;
+	}
+
+	@media screen and (max-width: 900px) {
+		padding: 2rem 4rem;
+	}
+
+	@media screen and (max-width: 450px) {
+		padding: 4rem 2rem;
+	}
+	
+	border-top: 2px solid black;
+	
+	//outline: solid 2px red;
+}
+
+.app__header-title-primary {
+	h1 {
+		color: var(--primary-color);
+	}
+} 
+	
+.app__header-title-secondary {
+	h1 {
+		color: var(--secondary-color);
+	}	
+}
+	
+.app__header-title-tertiary {
+	h1 {
+		color: var(--tertiary-color);
+	}
+}
+
+.app__header-colors {
+
+}
