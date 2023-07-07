@@ -10,10 +10,7 @@ const Miguel = () => {
 			    <h1>Miguel</h1>
 			</div>
 			<div className="app__miguel-excerpt">
-<<<<<<< Updated upstream
-				<p className="p-text">1234565768</p>
 				<h2>Nelson></h2>
-=======
 				<p className="p-text"></p>
 				<div> 
 				 <img src="https://dummyimage.com/200x200/000/fff" alt="imagen 1"/>  
@@ -40,8 +37,6 @@ const Miguel = () => {
 						</div>
 					</section>	
 				</div>
-				
->>>>>>> Stashed changes
 			</div>
 		</div>
     </div>
