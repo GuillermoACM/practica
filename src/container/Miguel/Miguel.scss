@@ -35,3 +35,29 @@
 .app__miguel-excerpt {
 
 }
+
+ .section{
+ 
+     width: 100%;
+	 height: 400px;
+	display:flex;
+ }
+ 
+ .article-header{
+	background: url("https://upload.wikimedia.org/wikipedia/commons/0/04/Labrador_Retriever_%281210559%29.jpg");
+	width: 40%;
+	height: 100%;
+	background-size: cover;
+ }
+
+.body-article{
+	width: 60%;
+	height: 100%;
+	display: grid;
+	grid-template-row: 50px 150px 50px;
+	padding: 10px 15px;
+	
+	
+
+}
+

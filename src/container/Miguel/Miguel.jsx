@@ -10,51 +10,26 @@ const Miguel = () => {
 			    <h1>Miguel</h1>
 			</div>
 			<div className="app__miguel-excerpt">
-				<p className="p-text"></p>
-				<div> 
-				 <img src="https://dummyimage.com/200x200/000/fff" alt="imagen 1"/>  
-					<span> Según estudio, el nivel de felicidad de una persona promedio disminuye después de los 21 años </span>
-					
-				</div>
-				<div> 
-				  <img src="https://dummyimage.com/200x200/000/fff" alt="imagen 1"/>  
-					<span> Según estudio, el nivel de felicidad de una persona promedio disminuye después de los 21 años </span>
-					
-				</div>
-				<div> 
-				  <img src="https://dummyimage.com/200x200/000/fff" alt="imagen 1"/>  
-					<span> Según estudio, el nivel de felicidad de una persona promedio disminuye después de los 21 años </span>
-					
-				</div>
-				<div className="container">
-					<section className="card">
-						<div className="card_header">
-							<img className="card_image_header" src="https://img.freepik.com/fotos-premium/triste-infeliz-llorando-mujer-llorando-ojos-lagrimas_122732-2274.jpg" alt="Mujer llorando"/>
-						</div>
-						<div class="card_body">
-							<p class="text_body"> Las mijeres lloran entre 30 y 60 veces al año, mientras derraman lagrimas entre 7 y 17 veces al año.  </p>
-						</div>
-					</section>	
-				</div>
-				<div className="container">
-					<section className="card">
-						<div className="card_header">
-							<img className="card_image_header" src="https://img.freepik.com/fotos-premium/triste-infeliz-llorando-mujer-llorando-ojos-lagrimas_122732-2274.jpg" alt="Mujer llorando"/>
-						</div>
-						<div class="card_body">
-							<p class="text_body"> Las mijeres lloran entre 30 y 60 veces al año, mientras derraman lagrimas entre 7 y 17 veces al año.  </p>
-						</div>
-					</section>	
-				</div>
-				<div className="container">
-					<section className="card">
-						<div className="card_header">
-							<img className="card_image_header" src="https://img.freepik.com/fotos-premium/triste-infeliz-llorando-mujer-llorando-ojos-lagrimas_122732-2274.jpg" alt="Mujer llorando"/>
-						</div>
-						<div class="card_body">
-							<p class="text_body"> Las mijeres lloran entre 30 y 60 veces al año, mientras derraman lagrimas entre 7 y 17 veces al año.  </p>
-						</div>
-					</section>	
+				<h2> Datos Curiosos</h2>
+				
+				
+				
+				<div className="section">
+				
+							<div className="article-header"></div>	
+								<div className="body-article">
+									<div className="article-card">
+										<h3 className="title-article">POR QUÉ LOS PERROS NO PUEDEN COMER CHOCOLATE</h3>
+									</div>
+										<p>Los perros no pueden metabolizar la teobromina, un compuesto químico presente en el chocolate, por lo que esta se acumula rápidamente hasta alcanzar niveles tóxicos y puede provocar su muerte.
+		</p>
+										<p>Los perros al ser incapaces de metabolizar la teobromina (molécula que se encuentra en las semillas de cacao, las nueces de cola y el té) pueden padecer un conjunto de afecciones que van desde daño cardiaco y el sistema nervioso hasta la muerte.
+		</p>
+										<p>Esta molécula puede afecta a los seres humanos, pero la dosis, a diferencia de los perros, debe ser muy elevada; aunado a esto, el ser humano puede metabolizar dicha sustancia, evitando con esto los efectos adversos provocado por la misma. </p>
+								</div>
+							
+						
+			
 				</div>
 			</div>
 		</div>
