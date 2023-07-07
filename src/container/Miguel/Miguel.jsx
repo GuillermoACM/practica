@@ -36,6 +36,26 @@ const Miguel = () => {
 						</div>
 					</section>	
 				</div>
+				<div className="container">
+					<section className="card">
+						<div className="card_header">
+							<img className="card_image_header" src="https://img.freepik.com/fotos-premium/triste-infeliz-llorando-mujer-llorando-ojos-lagrimas_122732-2274.jpg" alt="Mujer llorando"/>
+						</div>
+						<div class="card_body">
+							<p class="text_body"> Las mijeres lloran entre 30 y 60 veces al año, mientras derraman lagrimas entre 7 y 17 veces al año.  </p>
+						</div>
+					</section>	
+				</div>
+				<div className="container">
+					<section className="card">
+						<div className="card_header">
+							<img className="card_image_header" src="https://img.freepik.com/fotos-premium/triste-infeliz-llorando-mujer-llorando-ojos-lagrimas_122732-2274.jpg" alt="Mujer llorando"/>
+						</div>
+						<div class="card_body">
+							<p class="text_body"> Las mijeres lloran entre 30 y 60 veces al año, mientras derraman lagrimas entre 7 y 17 veces al año.  </p>
+						</div>
+					</section>	
+				</div>
 			</div>
 		</div>
     </div>
