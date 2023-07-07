@@ -10,7 +10,7 @@ const Nelson = () => {
 			    <h1>Nelson</h1>
 			</div>
 			<div className="app__nelson-excerpt">
-				<p></p>
+				<p>Test</p>
 			</div>
 		</div>
     </div>
