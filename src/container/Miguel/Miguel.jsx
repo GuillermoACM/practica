@@ -10,7 +10,6 @@ const Miguel = () => {
 			    <h1>Miguel</h1>
 			</div>
 			<div className="app__miguel-excerpt">
-				<h2>Nelson></h2>
 				<p className="p-text"></p>
 				<div> 
 				 <img src="https://dummyimage.com/200x200/000/fff" alt="imagen 1"/>  
