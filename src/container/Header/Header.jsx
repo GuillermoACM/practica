@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Header.scss';
+import { images } from '../../constants';
 
 const Header = () => {
   return (
@@ -17,27 +18,8 @@ const Header = () => {
 				</div>
 			</div>
 			
-			<div className="app__header-ejercicio">
-				<ul>
-					<li>
-					<span>
-						<img src="http://via.placeholder.com/200x200"/>
-						Placeholder
-					</span>
-					</li>
-					<li>
-					<span>
-						<img src="http://via.placeholder.com/200x200"/>
-						Placeholder
-					</span>
-					</li>
-					<li>
-					<span>
-						<img src="http://via.placeholder.com/200x200"/>
-						Placeholder
-					</span>
-					</li>
-				</ul>
+			<div className="app__header-esquema">
+				<img class="esquema01" src={images.esquema01} />
 			</div>
     </div>
   )
