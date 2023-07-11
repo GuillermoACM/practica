@@ -18,9 +18,27 @@ const Header = () => {
 				</div>
 			</div>
 			
+			<div className="app__header-ejercicio3">
+				<div className="container d-flex justify-content-around flex-wrap">
+					<div className="app__header-card container d-flex flex-column">
+						<img className="" src="https://via.placeholder.com/250x250" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus suscipit lorem, sed condimentum tellus. Etiam venenatis lorem et urna interdum consectetur. Praesent a quam tincidunt, tincidunt velit in, tempor ligula. Maecenas posuere arcu et nunc scelerisque blandit.</p>
+					</div>
+					<div className="app__header-card container d-flex flex-column">
+						<img className="" src="https://via.placeholder.com/250x250" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus suscipit lorem, sed condimentum tellus. Etiam venenatis lorem et urna interdum consectetur. Praesent a quam tincidunt, tincidunt velit in, tempor ligula. Maecenas posuere arcu et nunc scelerisque blandit.</p>
+					</div>
+					<div className="app__header-card container d-flex flex-column">
+						<img className="" src="https://via.placeholder.com/250x250" />
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus suscipit lorem, sed condimentum tellus. Etiam venenatis lorem et urna interdum consectetur. Praesent a quam tincidunt, tincidunt velit in, tempor ligula. Maecenas posuere arcu et nunc scelerisque blandit.</p>
+					</div>
+				</div>
+			</div>
+			
 			<div className="app__header-esquema">
 				<img className="esquema01" src={images.esquema02} />
 			</div>
+			
     </div>
   )
 }
