@@ -9,16 +9,15 @@ const Nelson = () => {
 			<div className="app__nelson-title">
 			    <h1>Nelson</h1>
 			</div>
-			<div className="app__nelson-excerpt">
 			
 			
-			    <li> <img src="https://dummyimage.com/280x200/000/000fe3" alt="Nova"/> <span> Nova clásica: colapso de estrella con 5 veces la masa del sol </span> </li>
-				
-				<li> <img src="https://dummyimage.com/280x200/000/000fe3" alt="Supernova"/> <span> Supernovas: colapso de estrella con 15 veces la masa del sol </span> </li>
-				
-				<li> <img src="https://dummyimage.com/280x200/000/000fe3" alt="Hiprernova"/> <span> hipernovas: colapso de estrella con 15 veces la masa del sol </span> </li>
-				
-				
+			<div className="primario">
+				<h1>Estrellas</h1>
+			
+				<div className="secundario">
+					<img src= "https://dummyimage.com/280x200/000/000fe3"/>
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quam massa, tempor ac lacus vel, pulvinar maximus magna. Nullam scelerisque magna vitae massa aliquam pretium. Etiam a odio eget felis pharetra congue at nec metus. Cras vitae varius ex.</p>
+				</div>
 			</div>
 			
 		</div>
