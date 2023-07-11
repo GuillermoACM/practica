@@ -42,7 +42,7 @@ const Miguel = () => {
 
 				</div>
 				
-				<div className="container flex-wrap d-flex mt-4 bg-danger justify-content-center p-4">
+				<div className="container flex-wrap d-flex mt-4 bg-danger justify-content-evenly p-4">
 					<div className="card m-1  col-4" style={{width:"15rem"}}>
 						  <img src="https://dummyimage.com/200x150/e3a6d1/fff" className="card-img-top" alt="image"/>
 						  <div className="card-body">
