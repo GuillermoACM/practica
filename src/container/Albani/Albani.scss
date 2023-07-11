@@ -22,6 +22,19 @@
 	}
 	
 	border-top: 2px solid var(--tertiary-color);
+	p {
+		color: var(--secondary-color);
+	}
+	
+	ul {
+		color: var(--secondary-color);
+	}
+	
+	li {
+		color: var(--secondary-color);
+	}
+	
+	border-top: 2px solid black;
 }
 
 .app__albani-section {
