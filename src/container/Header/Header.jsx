@@ -19,7 +19,7 @@ const Header = () => {
 			</div>
 			
 			<div className="app__header-esquema">
-				<img className="esquema01" src={images.esquema01} />
+				<img className="esquema01" src={images.esquema02} />
 			</div>
     </div>
   )
