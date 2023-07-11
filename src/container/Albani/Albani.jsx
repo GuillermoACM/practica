@@ -10,41 +10,16 @@ const Albani = () => {
 			    <h1>Albani</h1>
 			</div>
 			
-			
-			
-			
-			
-			
-			
-			
-			
 			<div className="app__albani-excerpt">
 			
-			<div>
-			<ul> 
-			<a href="#"> 
-				<li>La Familia Manson, o simplemente La Familia, fue un grupo o secta criminal establecida en California, a finales de los años 1960, dirigida por Charles Manson. Ganaron notoriedad después del asesinato de la actriz Sharon Tate y otras cuatro personas el 9 de agosto de 1969, a manos de Tex Watson y otros tres miembros de «La Familia Manson», actuando bajo las instrucciones de Charles Manson.  </li>
-				</a>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Manson1968.jpg/250px-Manson1968.jpg"/> 
-				
-				
-				<li>Ku Klux Klan (KKK) es un grupo de odio3​ supremacista blanco estadounidense, conocido por promover por medio de actos violentos y propagandísticos el racismo, la xenofobia y el antisemitismo, así como la homofobia, el anticatolicismo y el anticomunismo</li>
-				
-				<img src="https://www.es.amnesty.org/fileadmin/user_upload/AP9511250962_KKK_racismo.jpg"/>
-				
-				<li> Dragon Ball Z (ドラゴンボールZ Doragon Bōru Zetto?) es una serie de manga japonesa producida por Toei Animation. Es el segundo producto de la franquicia Dragon Ball, es la secuela de la serie de anime de 1986 Dragon Ball y adapta los últimos 325 capítulos de la serie de manga Dragon Ball creada por Akira Toriyama, que se publicó en Weekly Shōnen Jump de 1988 a 1995. </li>
-			</ul>
-			<img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe"/> 
+				<div className="container-father">
+						<h1> Justin Bieber </h1>
+					<div className="container-child">
+						<img src="https://www.cheatsheet.com/wp-content/uploads/2022/03/Justin-Bieber.jpg?strip=all&quality=89" /> 
+						<p> Justin Drew Bieber (London, Ontario; 1 de marzo de 1994) es un cantautor canadiense. En 2008, el exejecutivo de la industria musical, Scooter Braun, descubrió casualmente el talento de Justin Bieber cuando se encontraba viendo algunos vídeos en YouTube, donde Justin se dedicaba a subir algunas versiones de sus cantantes favoritos que él interpretaba junto a su guitarra. Tiempo después, Scooter Braun se convirtió en su mánager. Scooter Braun reunió a Justin Bieber con el también cantante estadounidense Usher en Atlanta, Estados Unidos, donde Justin firmaría un contrato con el sello discográfico de Scooter Braun y Usher, Raymond Braun Media Group (RBMG) y otro contrato con Island Records, ofrecido por L.A. Reid. </p>
+					</div>
+				</div>
 			</div>
-			</div>
-			
-			
-			
-			
-			
-			
-			
-			
 		</div>
     </div>
   )

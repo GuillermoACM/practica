@@ -48,3 +48,20 @@
 .app__albani-excerpt {
 
 }
+
+img { 
+	width: 400px;
+}
+
+.container-father{
+	width: 100%;
+	
+	.container-child{
+		width: 370px;
+		margin: auto;
+		
+		img {
+			width: 100%;
+		}
+	}
+}
