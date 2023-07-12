@@ -110,7 +110,8 @@ img {
 			li {
 				display: flex;
 				flex-direction: row;
-				width: 50px;
+				width: 100%;
+				margin: auto;
 				
 				img {
 					border-radius: 2em;
@@ -123,7 +124,6 @@ img {
 				}
 				
 				@media screen and (max-width: 900px) {
-					width: 200px;
 					margin: auto;
 					
 					img {
