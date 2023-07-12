@@ -11,14 +11,40 @@ const Albani = () => {
 			</div>
 			
 			<div className="app__albani-excerpt">
-			
-				<div className="container-father">
-						<h1> Justin Bieber </h1>
-					<div className="container-child">
-						<img src="https://www.cheatsheet.com/wp-content/uploads/2022/03/Justin-Bieber.jpg?strip=all&quality=89" /> 
-						<p> Justin Drew Bieber (London, Ontario; 1 de marzo de 1994) es un cantautor canadiense. En 2008, el exejecutivo de la industria musical, Scooter Braun, descubrió casualmente el talento de Justin Bieber cuando se encontraba viendo algunos vídeos en YouTube, donde Justin se dedicaba a subir algunas versiones de sus cantantes favoritos que él interpretaba junto a su guitarra. Tiempo después, Scooter Braun se convirtió en su mánager. Scooter Braun reunió a Justin Bieber con el también cantante estadounidense Usher en Atlanta, Estados Unidos, donde Justin firmaría un contrato con el sello discográfico de Scooter Braun y Usher, Raymond Braun Media Group (RBMG) y otro contrato con Island Records, ofrecido por L.A. Reid. </p>
+				
+				<div className="container-about">
+				
+					<div className="container-photo">
+					
+						<img className="about-photo" src="https://via.placeholder.com/250x250"/>
+						<h3 className="about-title">Justin Drew Bieber</h3>
+						
 					</div>
+					
+					<div className="container-bio">
+					
+						<p className="about-bio"></p>
+						
+						<div className="container-skills">
+						
+							<ul className="about-skills">
+								<li>
+									<img src="https://via.placeholder.com/100x100" />
+								</li>
+								<li>
+									<img src="https://via.placeholder.com/100x100" />
+								</li>
+								<li>
+									<img src="https://via.placeholder.com/100x100" />
+								</li>
+							</ul>
+							
+						</div>
+						
+					</div>
+					
 				</div>
+				
 			</div>
 		</div>
     </div>
