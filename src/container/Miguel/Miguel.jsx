@@ -13,7 +13,7 @@ const Miguel = () => {
 				<h2> Datos Curiosos</h2>
 				
 				
-				
+			                	/*  SECCION DE DATOS CURIOSOS*/
 				<div className="section d-flex flex-row flex-wrap justify-content-center container">
 				
 							
@@ -105,6 +105,8 @@ const Miguel = () => {
 			
 				</div>
 				
+				                         /*EJERCICIO 1 */
+				
 				<div className="cont-ejercicio1">
 					<h2>Lorem Ipsum</h2>
 					<div className="body-ejercicio1">
@@ -113,6 +115,8 @@ const Miguel = () => {
 					</div>
 
 				</div>
+				
+				                 /*EJERCICIO 2 USANDO FLEXBOX CON BOOTSTRAP */
 				
 				<div className="container flex-wrap d-flex mt-4 bg-danger justify-content-evenly p-4">
 					<div className="card m-1  col-4" style={{width:"15rem"}}>
@@ -135,6 +139,49 @@ const Miguel = () => {
 					</div>	
 					
 				</div>
+				
+				        
+				
+				<div className="container-about">
+				
+					<div className="container-photo"> 
+					
+						<img className="image" src={images.perro} />
+						<h2>LOREM IPSUM</h2>
+					</div>
+					<div className="container-bio">	
+						<h3>Vida de Nelson</h3>
+						<p className="bio">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+						<div className="container-skills">
+						
+							<ul className="about-skills">
+								<li>
+									<img src={images.html}/>
+									
+								</li>
+								<li>
+									<img src={images.css}/>
+									<p> CSS</p>
+								</li>
+								<li>
+									<img src={images.javascript} />
+									<p> javasCript</p>
+								</li>
+							</ul>
+							
+						</div>
+						
+						
+					</div>
+				
+				
+				
+				
+				</div>
+				
+				
+				
+				
 			</div>
 		</div>
     </div>

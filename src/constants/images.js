@@ -7,6 +7,9 @@ import castillo from '../assets/castillo.jpg';
 import estrellamar from '../assets/estrella-mar.jpg';
 import molino from '../assets/molino.jpg';
 import perro from '../assets/perro.jpg';
+import css from '../assets/css.svg';
+import javascript from '../assets/javascript.svg';
+import html from '../assets/html.svg';
 
 
 const images = {
@@ -19,6 +22,9 @@ const images = {
   estrellamar,
   molino,
   perro,
+  css,
+  html,
+  javascript,
 }
 
 export default images; 
