@@ -1,5 +1,6 @@
 import esquema01 from '../assets/esquema01.png';
 import esquema02 from '../assets/esquema02.png';
+import esquema03 from '../assets/esquema03.png';
 import carro from '../assets/carro.jpg';
 import piramides from '../assets/piramides.jpg';
 import castillo from '../assets/castillo.jpg';
@@ -11,6 +12,7 @@ import perro from '../assets/perro.jpg';
 const images = {
   esquema01,
   esquema02,
+	esquema03,
   carro,
   piramides,
   castillo,

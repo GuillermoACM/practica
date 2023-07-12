@@ -1,6 +1,6 @@
 .app__header {
 	max-width: 1000px;
-	height: 130rem;
+	height: 70rem;
 
 	padding: 6rem 1rem 6rem 4rem;
 	margin: 0 auto;
@@ -49,29 +49,7 @@
  width: 1400px;
  margin: 0 0 0 -15em;
 
-	.esquema01 {
+	.esquema {
 		width: 1080px;
-	}
-}
-
-.app__header-ejercicio3 {
-	height: 36em;
-}
-
-.app__header-card {
-	background-color: #555555;
-	border-radius: 10px;
-	width: 250px;
-	overflow: hidden;
-	
-	img {
-	  border-radius: 10px;
-		width: 200px;
-		margin: 30px auto;
-	}
-	
-	p {
-		width: 200px;
-		margin: 0 auto 30px auto;
 	}
 }
