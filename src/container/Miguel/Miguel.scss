@@ -63,6 +63,8 @@
  
 
 .cont-ejercicio1{
+	display: flex;
+	
 	padding: 1rem;
 	height: 450px;
 	background-color: #e89f9e;
@@ -79,6 +81,9 @@
 		margin-top: 2rem;
 		position: relative; 
 		
+		.body-ejercicio1{
+			overflow-y: hidden
+		}
 	}
 }
 .padre{
@@ -88,21 +93,59 @@
 	gap: 15px;
 	flex-flow: row wrap;
 	.hijo{
-	
+		outline: 1px solid orange;
 		width: 13rem;
 		height: 10rem;
-		border: 1px solid #F0FF42;
+		
+	}
+	
+	.hijo3{
+		flex-shrink: 2;
 	}
 }
           /* CURRICULUM*/
 @media screen and (min-width: 570px) and (max-width:720px){
 
 		.container-about{
+			display:flex;
+			color: black;
+			text-align: justify;
+			background-color: #B1D7B4;
+			margin-top: 2rem;
+			border-radius: 10px;
 			
-
+			
+			h2, h3{
+				text-align: center;
+			}
+			.container-photo{
+				
+				background-color: #7FB77E;
+				border-radius: 10px 10px 0px 0px;
+				padding: 1rem;
+				
+				.image{
+					border-radius:50%;
+				}
+			}
+			
+			.about-skills{
+				
+				display: flex;
+				justify-content: space-evenly;
+				background-color: #FFC090;
+				
+				.li{
+					padding-top: 1rem;
+					list-style: none;
+				}
+				.icono{
+					width: 4rem;
+					height: 4rem;
+					border-radius: 5px; 
+				}
+			}
 		}
-	
-			
-}		  
-
+		 
+}
 

@@ -111,7 +111,7 @@ const Miguel = () => {
 					<h2>Lorem Ipsum</h2>
 					<div className="body-ejercicio1">
 						<img src="https://dummyimage.com/300x300/e3a6d1/fff" alt="image 1"/>
-						<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classNameical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. </p>
+						
 					</div>
 
 				</div>
@@ -152,46 +152,35 @@ const Miguel = () => {
 					<div className="container-bio">	
 						<h3>Vida de Nelson</h3>
 						<p className="bio">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-						<div className="container-skills">
+						
+					</div>
+					<div className="container-skills">
 						
 							<ul className="about-skills">
-								<li>
-									<img src={images.html}/>
-									<p>HTML</p>
+								<li className="lista">
+									<img className="icono" src={images.html}/>
+									<span>HTML</span>
 								</li>
-								<li>
-									<img src={images.css}/>
+								<li className="lista">
+									<img className="icono" src={images.css}/>
 									<p> CSS</p>
 								</li>
-								<li>
-									<img src={images.javascript} />
+								<li className="lista">
+									<img className="icono" src={images.javascript} />
 									<p> javasCript</p>
 								</li>
 							</ul>
 							
-						</div>
-						
-						
-					</div>
-
-
-
-
-
-				
-				
-					
-				
+					</div>	
 				</div>
-				<div className="padre">
+				
+				
+				    <div className="padre">
 						<div className="hijo hijo1">hijo1</div>
 						<div className="hijo hijo2">hijo2</div>
 						<div className="hijo hijo3">hijo3</div>
-						<div className="hijo hijo4">hijo4</div>
-						<div className="hijo hijo1">hijo5</div>
-						<div className="hijo hijo2">hijo6</div>
-						<div className="hijo hijo3">hijo7</div>
-						<div className="hijo hijo4">hijo8</div>
+						
+						
 					</div>
 				
 				
