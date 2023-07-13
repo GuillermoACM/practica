@@ -157,7 +157,7 @@ const Miguel = () => {
 							<ul className="about-skills">
 								<li>
 									<img src={images.html}/>
-									
+									<p>HTML</p>
 								</li>
 								<li>
 									<img src={images.css}/>
@@ -173,12 +173,26 @@ const Miguel = () => {
 						
 						
 					</div>
+
+
+
+
+
 				
 				
-				
+					
 				
 				</div>
-				
+				<div className="padre">
+						<div className="hijo hijo1">hijo1</div>
+						<div className="hijo hijo2">hijo2</div>
+						<div className="hijo hijo3">hijo3</div>
+						<div className="hijo hijo4">hijo4</div>
+						<div className="hijo hijo1">hijo5</div>
+						<div className="hijo hijo2">hijo6</div>
+						<div className="hijo hijo3">hijo7</div>
+						<div className="hijo hijo4">hijo8</div>
+					</div>
 				
 				
 				

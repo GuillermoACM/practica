@@ -81,40 +81,24 @@
 		
 	}
 }
-
+.padre{
+	
+	background-color: #379237;
+	display: flex; 
+	gap: 15px;
+	flex-flow: row wrap;
+	.hijo{
+	
+		width: 13rem;
+		height: 10rem;
+		border: 1px solid #F0FF42;
+	}
+}
           /* CURRICULUM*/
-@media screen and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 570px) and (max-width:720px){
 
 		.container-about{
-			color: black;
-			background-color: #EEE3CB;
-			border: 1px solid var(--primary-color);
-			border-radius:10px;
-			margin: 2rem 0px 2rem 0px;
-			display:flex;
-			justify-content: center; 
-			padding: 1rem;
 			
-			.container-photo{
-				background-color: #967E76;
-				border-radius: 5px;
-				padding: 1rem;
-				width: 90%;
-			  
-				.image{
-					border-radius:50%;
-					width: 200px;		
-				}
-			
-			}	
-			.container-bio{
-				background-color: #9BABB8;
-				
-				
-				p {
-					border-bottom: solid 1px black;
-				}
-			}
 
 		}
 	
