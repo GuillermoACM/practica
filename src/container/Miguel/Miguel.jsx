@@ -176,11 +176,11 @@ const Miguel = () => {
 				
 				
 				    <div className="padre">
-						<div className="hijo hijo1">hijo1</div>
-						<div className="hijo hijo2">hijo2</div>
-						<div className="hijo hijo3">hijo3</div>
-						
-						
+						<div className="hijo hijo1"></div>
+						<div className="hijo hijo2"></div>
+						<div className="hijo hijo3"></div>
+						<div className="hijo hijo4"></div>
+						<div className="hijo hijo5">hijo 54</div>							
 					</div>
 				
 				

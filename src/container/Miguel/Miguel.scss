@@ -87,20 +87,38 @@
 	}
 }
 .padre{
+	 width: 100%;
+	 height: 12rem;
+	 border-radius: 10px;
+	 display: flex;
+	 gap: 5px;
 	
-	background-color: #379237;
-	display: flex; 
-	gap: 15px;
-	flex-flow: row wrap;
 	.hijo{
-		outline: 1px solid orange;
-		width: 13rem;
-		height: 10rem;
+		flex:1;
+		border-radius: 1rem;
+		background-position: center;
+		background-size: auto 100%;
+		background-repeat: no repeat;
+		transition: all .8s ;
+	}
+	.hijo:hover{
+		flex: 2;
+	}
+	.hijo1{
+		background-image: url("https://images.hola.com/imagenes/viajes/20220930218161/salto-angel-venezuela-catarata-mas-alta-mundo/1-145-411/salto-del-angel-canaima-venezuela-t.jpg");
+	}
+	.hijo2{
+		background-image: url("https://fondosmil.com/fondo/11112.jpg");
+	}
+	.hijo3{
+		background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2014/08/61.jpg");
 		
 	}
-	
-	.hijo3{
-		flex-shrink: 2;
+	.hijo4{
+		background-image: url("https://static.vecteezy.com/system/resources/thumbnails/012/865/486/small/closeup-sea-sand-beach-panoramic-beach-landscape-inspire-tropical-beach-seascape-horizon-orange-and-golden-sunset-sky-calmness-tranquil-relaxing-sunlight-summer-mood-vacation-travel-holiday-banner-photo.jpg");
+	}
+	.hijo5{
+		background-image: url("https://www.espectaculosbcn.com/wp-content/uploads/2019/05/lugares-escondidos-catalunya-1.png");
 	}
 }
           /* CURRICULUM*/

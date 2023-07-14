@@ -12,6 +12,7 @@ import javascript from '../assets/javascript.svg';
 import html from '../assets/html.svg';
 
 
+
 const images = {
   esquema01,
   esquema02,
@@ -25,6 +26,7 @@ const images = {
   css,
   html,
   javascript,
+ 
 }
 
 export default images; 
