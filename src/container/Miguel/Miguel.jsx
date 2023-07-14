@@ -176,11 +176,33 @@ const Miguel = () => {
 				
 				
 				    <div className="padre">
-						<div className="hijo hijo1"></div>
-						<div className="hijo hijo2"></div>
-						<div className="hijo hijo3"></div>
-						<div className="hijo hijo4"></div>
-						<div className="hijo hijo5">hijo 54</div>							
+					
+						
+						<div className="hijo hijo1">
+							<div className="mostrar">
+								<h3> Salto Angel</h3>
+							</div>
+						</div>
+						<div className="hijo hijo2">
+							<div className="mostrar">
+								<h3> Lago azul</h3>
+							</div>
+						</div>
+						<div className="hijo hijo3">
+							<div className="mostrar">
+								<h3>Paisaje de flores</h3>
+							</div>
+						</div>
+						<div className="hijo hijo4">
+							<div className="mostrar">
+								<h3> Atardecer en el mar</h3>
+							</div>
+						</div>
+						<div className="hijo hijo5">
+							<div className="mostrar">
+								<h3> Catalunya</h3>
+							</div>
+						</div>							
 					</div>
 				
 				

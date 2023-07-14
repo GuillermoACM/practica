@@ -87,25 +87,48 @@
 	}
 }
 .padre{
+	 margin-top: 1rem;
+	 margin-botton: 1rem;
 	 width: 100%;
 	 height: 12rem;
 	 border-radius: 10px;
 	 display: flex;
+	 flex-wrap: row wrap;
 	 gap: 5px;
 	
 	.hijo{
-		flex:1;
+		flex: 1;
 		border-radius: 1rem;
 		background-position: center;
-		background-size: auto 100%;
+		background-size: cover;
 		background-repeat: no repeat;
+		
 		transition: all .8s ;
+		
+		.mostrar{
+			border-radius: 1rem;
+			background-color: rgba(2, 2, 2, 0.5);
+			align-item: center;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: all .8s;
+		}
 	}
 	.hijo:hover{
-		flex: 2;
+		flex: 3; 
+	}
+	.hijo:hover .mostrar{
+		
+		opacity: 1;
+		color: #fff;
+		text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+		
 	}
 	.hijo1{
 		background-image: url("https://images.hola.com/imagenes/viajes/20220930218161/salto-angel-venezuela-catarata-mas-alta-mundo/1-145-411/salto-del-angel-canaima-venezuela-t.jpg");
+		
+		
 	}
 	.hijo2{
 		background-image: url("https://fondosmil.com/fondo/11112.jpg");
